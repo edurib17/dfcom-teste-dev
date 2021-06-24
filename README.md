@@ -1,9 +1,28 @@
-Desenvolver um sistema que consulte uma api de produtos e mostre os produtos na tela, dando a possibilidade do usuário favoritar algum produto caso esteja logado, caso o usuário favorita algum produto o mesmo deve aparecer listado nos favoritos do usuário
+# Desafio Dev 
 
-O sistema deve ter um login
+### Tecnologias Utilizadas:
+* React Js  para crição do frontend [reactjs](https://pt-br.reactjs.org/)
+* Node Js para criação do backend  [nodejs](https://nodejs.org/en/)
+* Mongodb para o banco de dados [mongodb](https://www.mongodb.com/)
+#### 1. Clone o projeto
 
-O sistema deve ser feito com node e react js e persistindo os dados em um banco de dados mongodb online. Fique a vontade para escolher a estilização.
+```
+git clone https://github.com/edurib17/DFcom-teste-dev.git
+```
 
-Deve ser utilizado a ferramenta git para versionamento
+#### 2. Atualize as dependencias do root
 
-Escreva um readme falando como rodar seu projeto
+```
+cd DFcom-teste-dev
+npm install
+```
+#### 3. Atualize as dependencias do frontend
+```
+cd frontend
+npm  install
+```
+#### 4. Execute o projeto voltando para root
+```
+cd ..
+npm run dev
+```
